@@ -5,15 +5,16 @@ The goal is to enhance vessel visibility in retinal fundus images and improve ea
 ⭐ Project Overview
 
 This repository contains:
-	•	A custom SVD preprocessing module applied on the green channel of retinal images
-	•	A U-Net deep learning model built in TensorFlow/Keras for vessel segmentation
-	•	A full pipeline including:
-	  Preprocessing
-	  Patch extraction
-	  Training
-	  Evaluation
-	  Reconstruction
-	  Single-image inference
+
+	- A custom SVD preprocessing module applied on the green channel of retinal images
+	- A U-Net deep learning model built in TensorFlow/Keras for vessel segmentation
+	- A full pipeline including:
+	  - Preprocessing
+      - Patch extraction
+	  - Training
+	  - Evaluation
+	  - Reconstruction
+	  - Single-image inference
 
 The hybrid approach improves feature clarity, reduces noise, and helps the CNN detect thin, low-contrast blood vessels more effectively.
 
@@ -33,7 +34,12 @@ CNN Benefits
 		Works well on medical images with limited data |
 		U-Net architecture preserves spatial details via skip connections
 
-    
 
+Results:
+<p align="left">	
+ <img src="svd_result1.jpeg" width="300" /><br>
+ <img src="svd_result2.jpeg" width="300" /><br>	
+ <img src="svd_result3.jpeg" width="300" />
+</p>
 
 Together, SVD simplifies and enhances the image structure while CNN learns to segment vessels accurately.
